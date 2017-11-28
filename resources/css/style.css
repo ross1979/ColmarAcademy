@@ -1,3 +1,205 @@
 html {
   font-size: 18px;
 }
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.4;
+}
+div {
+  border: 1px dashed;
+}
+
+.contain {
+  max-width: 1024px;
+  align-content: center;
+  margin: auto;
+}
+/*Header Section*/
+.title{
+  display: flex;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 2rem;
+  padding-left: 24px;
+
+}
+nav {
+  display: flex;
+  margin-right: 24px;
+}
+li {
+  display: inline;
+  padding-left: 16px;
+}
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+h1 span {
+  font-weight: bold;
+}
+
+.banner{
+  display: flex;
+  background-color: green;
+}
+.banner img {
+  padding: 32px 24px;
+  max-width: 60%;
+  height: 490px;
+}
+.banner .text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+/* Info section */
+
+.info, .primary, .second{
+  display: flex;
+
+}
+.info {
+  justify-content: flex-start;
+}
+.main img {
+  padding: 32px 0;
+  width: 100%;
+}
+.primary {
+  max-width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+}
+.primary h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+.quote {
+  font-size: 1.25rem;
+  padding-bottom: 24px;
+}
+
+.quoted {
+  font-size: 1.25;
+  padding-bottom: 32px;
+}
+.info .second {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-top: 32px;
+}
+.inf {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.holder{
+  max-width: 35%;
+  align-content: center;
+}
+.sec {
+  max-width: 100%;
+  align-items: center;
+}
+.inform {
+  justify-content: center;
+  align-items: center;
+  max-width: 65%;
+  padding-left: 16px;
+}
+.inform h4, p, a, {
+  padding-bottom: 8px;
+
+}
+.inform H4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.inform a {
+  color: blue;
+  font-size: .8rem;
+}
+.guest, .fisma {
+  background-color: green;
+}
+
+/* Courses section */
+
+.head {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 32px auto 32px auto;
+  text-align: center;
+}
+.third {
+  background-color: green;
+}
+.courses {
+  padding: 16px 56px;
+
+}
+.course {
+  padding: 16px;
+}
+
+/* Thesis section */
+
+.info {
+  justify-content: flex-start;
+}
+video {
+  padding: 32px 0;
+  width: 100%;
+}
+.thesis {
+  max-width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+}
+.second {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-top: 32px;
+}
+
+.thesis h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+.thesis p {
+  padding-bottom: 32px;
+}
+
+/* footer secion */
+footer {
+  display: inline
+}
+footer p {
+  padding-left: 24px;
+  padding-top: 16px;
+}
