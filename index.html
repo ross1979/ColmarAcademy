@@ -17,11 +17,16 @@
           <h1 id="colmar"><span>COLMAR</span> ACADEMY</h1>
         </div>
         <nav>
-          <ul>
+          <ul class="std-nav">
             <li><a href="#">On campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">For companies</a></li>
             <li><a href="#">Sign in</a></li>
+          </ul>
+          <ul class="mob-nav">
+            <li><img src="./resources/images/ic-on-campus.svg" href="#"></li>
+            <li><img src="./resources/images/ic-online.svg" href="#"></li>
+            <li><img src="./resources/images/ic-login.svg" href="#"></li>
           </ul>
         </nav>
       </div>
@@ -48,7 +53,7 @@
         <p class="quoted">Emanuel, Sr Strategist at Hiring.com
         </p>
       </div>
-      <div class="second">
+      <div class="second info">
         <div class="inf orient">
           <div class="holder">
             <img class="sec image" src="./resources/images/information-orientation.jpg">
@@ -88,7 +93,7 @@
         <div class="course">
           <img src="./resources/images/course-software.jpg">
           <div>
-            <h4>Software engineering</h4>
+            <h4 class="subject">Software engineering</h4>
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
@@ -96,7 +101,7 @@
         <div class="course">
           <img src="./resources/images/course-computer-art.jpg">
           <div>
-            <h4>Computer art</h4>
+            <h4 class="subject">Computer art</h4>
             <p>COURSES</p>
             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
           </div>
@@ -104,7 +109,7 @@
         <div class="course">
           <img src="./resources/images/course-design.jpg">
           <div>
-            <h4>Design</h4>
+            <h4 class="subject">Design</h4>
             <p>COURSES</p>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
@@ -112,7 +117,7 @@
         <div class="course">
           <img src="./resources/images/course-data.jpg">
           <div>
-            <h4>Data</h4>
+            <h4 class="subject">Data</h4>
             <p>COURSES</p>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
@@ -120,7 +125,7 @@
         <div class="course">
           <img src="./resources/images/course-business.jpg">
           <div>
-            <h4>Business</h4>
+            <h4 class="subject">Business</h4>
             <p>COURSES</p>
             <p>Product Development, Business Development, Startup</p>
           </div>
@@ -128,7 +133,7 @@
         <div class="course">
           <img src="./resources/images/course-marketing.jpg">
           <div>
-            <h4>Marketing</h4>
+            <h4 class="subject">Marketing</h4>
             <p>COURSES</p>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
@@ -147,11 +152,11 @@
         </video>
           <h4>Reimagine urban
           </h4>
-          <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+          <p class="quote">"Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
           </p>
       </div>
 
-      <div class="second">
+      <div class="second research">
         <div class="inf fisma">
           <div class="holder">
             <img class="sec image" src="./resources/images/thesis-fisma.jpg">
@@ -179,13 +184,15 @@
   </div>
     <!--- Footer Section - container layout --->
     <footer>
-      <div class="contain">
+      <div class="contain title">
         <p>© 2016 Colmar Academy. All rights reserved
         </p>
-        <a>Terms
-        </a>
-        <a>Privacy
-        </a>
+
+          <ul>
+            <li><a>Terms</a></li>
+            <li><a>Privacy</a></li>
+          </ul>
+
       </div>
     </footer>
   </body>

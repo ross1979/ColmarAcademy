@@ -34,6 +34,9 @@ li {
   display: inline;
   padding-left: 16px;
 }
+.mob-nav {
+  display: none;
+}
 h1 {
   font-size: 1.7rem;
   text-align: center;
@@ -121,7 +124,7 @@ h2 {
 }
 .sec {
   max-width: 100%;
-  align-items: center;
+  align-self: center;
 }
 .inform {
   justify-content: center;
@@ -150,18 +153,35 @@ h2 {
 .head {
   font-size: 2rem;
   font-weight: bold;
-  padding: 32px auto 32px auto;
+  margin: 32px auto 16px auto;
   text-align: center;
 }
 .third {
   background-color: green;
 }
 .courses {
-  padding: 16px 56px;
-
+  padding: 16px 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .course {
-  padding: 16px;
+  width: 28%;
+  margin: 32px 16px;
+  height: 314px;
+  background-color: white;
+}
+
+.course img {
+  width: 100%
+}
+.course div {
+  padding: 16px 16px 24px 16px;
+}
+
+.course h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 /* Thesis section */
@@ -197,9 +217,56 @@ video {
 
 /* footer secion */
 footer {
-  display: inline
+  display: inline;
+  align-items: center;
+
 }
 footer p {
   padding-left: 24px;
-  padding-top: 16px;
+}
+footer ul {
+  padding-right: 24px;
+}
+@media only screen and (max-width: 470px) {
+  .contain {
+    max-width: 100%;
+  }
+  .title h1, .banner img, .std-nav {
+    display: none;
+  }
+  .info .primary {
+    display: none;
+  }
+  .course img, .course p {
+    display: none;
+  }
+  .research, .thesis h4, .thesis p, footer ul {
+    display: none;
+  }
+  .video, .thesis {
+    padding: 0;
+  }
+  .thesis {
+    max-width: 100%;
+  }
+  .info .second {
+    width: auto;
+    padding: 0;
+  }
+  .banner .text {
+    width: auto;
+  }
+  .courses {
+      display: block;
+    }
+  .mob-nav {
+    display: inline;
+    }
+    .mob-nav li {
+  padding-right: 52px;
+  height: 2rem;
+}
+    .logo{
+  padding-left: 52px;
+}
 }
